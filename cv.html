@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+    Hello! Welcome to the source code, thanks for stopping by ;)
+-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="John Revill">
+    <meta name="keywords" content="John Revill, cv, curriculum vitae, resume, software engineer, software developer">
+    <meta name="description" content="Curriculum Vitae of John Revill" />
+
+    <meta property="og:title" content="Curriculum Vitae of John Revill" />
+    <meta property="og:type" content="document" />
+    <meta property="og:description" content="Curriculum Vitae of John Revill" />
+    
+    <title>Curriculum Vitae of John Revill</title>
+
+    <style>
+        body {
+            font-family: verdana, sans-serif;
+            font-size: 1em;
+        }
+        section {
+        }
+        tr {
+        }
+        td {
+            vertical-align: top;
+        }
+        td p:first-child {
+            margin-top: 0;
+        }
+        .contact-details {
+            padding: 0.5em;
+            margin: 0;
+        }
+        .company {
+            background-color: dimgray;
+            color: white;
+            padding: 0.5em;
+        }
+        .dates {
+            background-color: darkgrey;
+            color: black;
+            padding: 0.5em;
+            white-space: nowrap;
+        }
+        .exp-skills {
+            color:dimgray;
+            font-size: 0.8em;
+        }
+        .exp-skills ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .exp-work {
+        }
+        .small-indented {
+            padding-left: 1.5em;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+
+<body vocab="http://schema.org/" resource="#john" typeof="Person"><!-- Drawing upon RDFa (mostly Lite 1.1) for structured data markup and the schemas from schema.org -->
+    <header>
+        <h1><span property="name">John Revill</span></h1>
+        <h2><span property="jobTitle">Software Engineer</span></h2>
+        
+        <p class="contact-details" property="address" typeof="PostalAddress">
+            <span property="addressLocality">Worthing</span>, 
+            <span property="addressRegion">West Sussex</span>, 
+            <span property="addressCountry">UK</span>
+        </p>
+        <p class="contact-details" property="telephone">+44 (available on request)</p>
+        <p class="contact-details" property="email">john.cv.2021.4.public@abatons.org</p>
+    </header>
+
+    <section property="description">
+        <h3>Summary</h3>
+        <p>I am a keen software developer with at least 16 <!-- ~194 months industry exp. until and including 2021 April --> years of industry experience and a PhD in computer science.</p>
+        <p>Scala and Java are my native languages but I have experienced a range of languages and am happy to switch between them depending on the project. Similarly, I have consistently worked accross the full-stack, but am not bound to any one specific technology stack.</p>
+        <p>I enjoy an agile workplace and working closely with others in the development team. I have a keen eye for detail and am always looking for a good user experience. My motivation is simple - helping create successful software that brings delight to the customer, development team, and business, makes me happy.</p>
+        <p>I am friendly, sincere, low-ego, hard working, and good-humoured. I love spending time with friends and family, travelling, going to the cinema, computer games, and the occasional craft project that may involve electronics or book carving.</p>
+    </section>
+    
+    <section>
+        <h3>Experience</h3>
+        
+        <table>
+
+            <tbody property="worksFor" typeof="EmployeeRole">
+                <tr>
+                    <td class="dates">
+                        <time property="startDate" datetime="2017-04">04/2017</time> to present
+                    </td>
+                    <td class="company" property="worksFor" typeof="Organization">
+                        <span property="name">Capgemini</span>, Worthing - 
+                        <span property="disambiguatingDescription">microservices development</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="exp-skills">
+                        <ul>
+                            <li><u>Languages &amp; frameworks</u></li>
+                            <li about="#john" property="knowsAbout">Scala</li>
+                            <li about="#john" property="knowsAbout">Play framework</li>
+                            <li about="#john" property="knowsAbout">Scalatest, Scalacheck</li>
+                            <li about="#john" property="knowsAbout">Selenium, Wiremock</li>
+                            <li about="#john" property="knowsAbout">Gatling</li>
+                            <li about="#john" property="knowsAbout">OWASP Zed Attack Proxy</li>
+                            <li about="#john" property="knowsAbout">Some Cats</li>
+                        </ul>
+                        <br/>
+                        <ul>
+                            <li><u>Databases</u></li>
+                            <li about="#john" property="knowsAbout">Mongo DB</li>
+                        </ul>
+                        <br/>
+                        <ul>
+                            <li><u>Tooling &amp; Environment</u></li>
+                            <li about="#john" property="knowsAbout">Git, Github/open source</li>
+                            <li about="#john" property="knowsAbout">Splunk, Kibana, Grafana</li>
+                            <li about="#john" property="knowsAbout">Jenkins, sbt</li>
+                            <li about="#john" property="knowsAbout">Jira, Confluence</li>
+                            <li about="#john" property="knowsAbout">IntelliJ</li>
+                            <li about="#john" property="knowsAbout">Linux</li>
+                        </ul>
+                    </td>
+                    <td class="exp-work" property="description">
+                        <p>Consultancy work for Capgmenini working for their client, HMRC, at the client's Digital Delivery Centre in Worthing.</p>
+                        <p>Lead developer on 2 different scrum teams, both large and small. This included mentoring of junior developers, pair programming, code reviews, technical documentation, knowledge sharing and ensuring best practices.</p>
+                        <p>Created, maintained, and provided live support for numerous Play/Scala based microservices which delivered high traffic public facing HMRC tax services as well as internal HMRC staff facing services.</p>
+                        <p>The work was heavily reliant on pure functional and non-blocking reactive styles of programming.</p>
+                        <p>Cooperated with the business stakeholders and technical side accross various teams to clarify, design and develop solutions within an extensive and complex IT estate.</p>
+                        <p>Helped HMRC during challenging times involving the withdrawal from the EU and the coronavirus pandemic.</p>
+                    </td>
+                </tr>
+            </tbody>
+
+
+            <tbody property="worksFor" typeof="EmployeeRole">
+                <tr>
+                    <td class="dates">
+                        <time property="startDate" datetime="2014-04">04/2014</time> to <time property="endDate" datetime="2017-01">01/2017</time>
+                    </td>
+                    <td class="company" property="worksFor" typeof="Organization">
+                        <span property="name">Centient</span>, Frimley - 
+                        <span property="disambiguatingDescription">intelligence service provider</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="exp-skills">
+                        <ul>
+                            <li><u>Languages &amp; frameworks</u></li>
+                            <li about="#john" property="knowsAbout">Java 8</li>
+                            <li about="#john" property="knowsAbout">Some Scala</li>
+                            <li about="#john" property="knowsAbout">Spark</li>
+                            <li about="#john" property="knowsAbout">JUnit &amp; Cucumber</li>
+                            <li about="#john" property="knowsAbout">Jetty</li>
+                            <li about="#john" property="knowsAbout">JavaFX</li>
+                            <li about="#john" property="knowsAbout">Some RDF &amp; ontologies</li>
+                        </ul>
+                        <br/>
+                        <ul>
+                            <li><u>Databases</u></li>
+                            <li about="#john" property="knowsAbout">Orient DB &amp; Tinkerpop</li>
+                            <li about="#john" property="knowsAbout">PostgreSQL</li>
+                        </ul>
+                        <br/>
+                        <ul>
+                            <li><u>Messaging</u></li>
+                            <li about="#john" property="knowsAbout">AMQP / RabbitMQ</li>
+                            <li about="#john" property="knowsAbout">JMS / ApacheMQ</li>
+                        </ul>
+                        <br/>
+                        <ul>
+                            <li><u>Machine Learning / Data Mining</u></li>
+                            <li about="#john" property="knowsAbout">LDA topic modelling</li>
+                            <li about="#john" property="knowsAbout">LSA &amp; Word2Vec</li>
+                            <li about="#john" property="knowsAbout">Text document clustering</li>
+                            <li about="#john" property="knowsAbout">Naive bayes document classification</li>
+                        </ul>
+                        <br/>
+                        <ul>
+                            <li><u>Tooling &amp; Environment</u></li>
+                            <li about="#john" property="knowsAbout">Maven</li>
+                            <li about="#john" property="knowsAbout">Git</li>
+                            <li about="#john" property="knowsAbout">Linux</li>
+                            <li about="#john" property="knowsAbout">Bamboo / Jenkins</li>
+                            <li about="#john" property="knowsAbout">Jira</li>
+                            <li about="#john" property="knowsAbout">Confluence</li>
+                            <li about="#john" property="knowsAbout">Eclipse &amp; IntelliJ</li>
+                        </ul>
+                    </td>
+                    <td class="exp-work" property="description">
+                        <p>Created various visualisation and statistical tools for intelligence analysts. These included:</p>
+                        <ul>
+                            <li>Topic modelling for seeing trends in collected intelligence. Beyond visualisation, this also allowed the creation of a classifier which could focus future intelligence collection on specific topics.</li>
+                            <li>Interactive binary classification training/labelling tool, providing instant feedback on the classification while the user attributes labels.</li>
+                            <li>Interactive force-directed graph visualisation showing connections between collected social media users and messages. Real time lookup and enrichment of the graph DB using twitter APIs.</li>
+                            <li>Automatic thesaurus generator using LSA and Word2Vec, for helping analysts discover keywords related to their original search terms and keyword sensitivities. Also helped discover related documents.</li>
+                        </ul>
+                        <p>Created a simple document sentiment classifier, and an alert severity classifier using naive bayes.</p>
+                        <p>Supported and mentored junior developers.</p>
+                        <p>Maintained and developed the server side code.</p>
+                        <p>Introduced continuous integration and standardised codebase into maven projects.</p>
+                        <p>Helped with deployment, support and operations.</p>
+                    </td>
+                </tr>
+            </tbody>
+            
+
+            <tbody property="worksFor" typeof="EmployeeRole">
+                <tr>
+                    <td class="dates">
+                        <time property="startDate" datetime="2013-03">03/2013</time> to <time property="endDate" datetime="2013-05">05/2013</time>
+                    </td>
+                    <td class="company" property="worksFor" typeof="Organization">
+                        Freelance work for <span property="name">Future Platforms</span>, London - 
+                        <span property="disambiguatingDescription">mobile development</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="exp-skills">
+                        <ul>
+                            <li><u>Platforms</u></li>
+                            <li about="#john" property="knowsAbout">iOS/Objective C</li>
+                            <li about="#john" property="knowsAbout">Android/Java</li>
+                            <li about="#john" property="knowsAbout">Javascript</li>
+                        </ul>
+                    </td>
+                    <td class="exp-work" property="description">
+                        <p>Created the Glastonbury 2013 festival's official mobile application for iOS and Android.</p>
+                    </td>
+                </tr>
+            </tbody>
+            
+
+            <tbody property="worksFor" typeof="EmployeeRole">
+                <tr>
+                    <td class="dates">
+                        <time property="startDate" datetime="2012-06">06/2012</time> to <time property="endDate" datetime="2012-08">08/2012</time>
+                    </td>
+                    <td class="company" property="worksFor" typeof="Organization">
+                        Freelance work for <span property="name">Future Platforms</span>, Brighton - 
+                        <span property="disambiguatingDescription">mobile development</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="exp-skills">
+                        <ul>
+                            <li><u>Platforms</u></li>
+                            <li about="#john" property="knowsAbout">iOS, Objective C</li>
+                        </ul>
+                    </td>
+                    <td class="exp-work" property="description">
+                        <p>Created the Dominos Pizza iOS mobile application.</p>
+                    </td>
+                </tr>
+            </tbody>
+            
+
+            <tbody property="worksFor" typeof="EmployeeRole">
+                <tr>
+                    <td class="dates">
+                        <time property="startDate" datetime="2012-04">04/2012</time> to <time property="endDate" datetime="2012-05">05/2012</time>
+                    </td>
+                    <td class="company" property="worksFor" typeof="Organization">
+                        Freelance work for <span property="name">Future Platforms</span>, Brighton - 
+                        <span property="disambiguatingDescription">mobile development</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="exp-skills">
+                        <ul>
+                            <li><u>Platforms</u></li>
+                            <li about="#john" property="knowsAbout">Windows Phone 7, C#</li>
+                        </ul>
+                    </td>
+                    <td class="exp-work" property="description">
+                        <p>Created a prototype voice controlled windows phone mobile app for Pearson.</p>
+                    </td>
+                </tr>
+            </tbody>
+            
+
+            <tbody property="worksFor" typeof="EmployeeRole">
+                <tr>
+                    <td class="dates">
+                        <time property="startDate" datetime="2007-07">07/2007</time> to <time property="endDate" datetime="2012-03">03/2012</time>
+                    </td>
+                    <td class="company" property="worksFor" typeof="Organization">
+                        <span property="name">Future Platforms</span>, Brighton - 
+                        <span property="disambiguatingDescription">mobile development</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="exp-skills">
+                        <ul>
+                            <li><u>Platforms</u></li>
+                            <li about="#john" property="knowsAbout">iOS/Objective C</li>
+                            <li about="#john" property="knowsAbout">Android/Java</li>
+                            <li about="#john" property="knowsAbout">Windows Phone 7</li>
+                            <li about="#john" property="knowsAbout">Symbian/Javascript, Qt, C++</li>
+                            <li about="#john" property="knowsAbout">Cross Platform/Javascript<li>
+                            <li about="#john" property="knowsAbout">WebOS/Javascript, HTML<li>
+                            <li about="#john" property="knowsAbout">J2ME/Java<li>
+                            <li about="#john" property="knowsAbout">Nokia WebApp/Javascript, HTML<li>
+                            <li about="#john" property="knowsAbout">Server side/Tomcat, Java, MySQL<li>
+                        </ul>
+                    </td>
+                    <td class="exp-work" property="description">
+                        <p>Worked within an agile environment creating many different mobile applications, some with supporting server sides for many different clients, including:</p>
+                        <ul>
+                            <li>Glastonbury festival 2012, cross platform, Android, iOS, Symbian</li>
+                            <li>Electrical Safety Council, Android</li>
+                            <li>Hasbro Monopoly demo/prototype, Android</li>
+                            <li>Dominos Pizza, Windows Phone 7</li>
+                            <li>Monotype fonts mobile website, Tomcat/Java</li>
+                            <li>Roulette Cricket, a gambling game, iOS</li>
+                            <li>AA Traffic, Symbian</li>
+                            <li>LastMinute.com Hotels and LastMinute.com FoneTicket, WebOS</li>
+                            <li>LastMinute.com Top Secret Hotels, Javascript based Nokia platform</li>
+                            <li>LastMinute.com information app, Nokia WebApp</li>
+                            <li>BBC Bitesize, J2ME</li>
+                            <li>TruTap, a messaging service, J2ME</li>
+                            <li>Messaging service for a large provider, J2ME</li>
+                            <li>Puzzler Fitword, game, J2ME</li>
+                            <li>GetJam, advertising and brand engagement platform, J2ME</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+            
+            
+            <tbody property="worksFor" typeof="EmployeeRole">
+                <tr>
+                    <td class="dates">
+                        <time property="startDate" datetime="2004-09">09/2004</time> to <time property="endDate" datetime="2006-03">03/2006</time>
+                    </td>
+                    <td class="company" property="worksFor" typeof="Organization">
+                        <span property="name">HSBC Asset Management</span>, London - 
+                        <span property="disambiguatingDescription">financial software</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="exp-skills">
+                        <ul>
+                            <li about="#john" property="knowsAbout">Java</li>
+                            <li about="#john" property="knowsAbout">Sybase</li>
+                            <li about="#john" property="knowsAbout">PowerBuilder</li>
+                            <li about="#john" property="knowsAbout">Stored procedures</li>
+                        </ul>
+                    </td>
+                    <td class="exp-work" property="description">
+                        <p>J2EE and PowerBuilder development on a heavily used front office asset management system relied on by hundreds of users.</p>
+                        <p>Saw through the successful development &amp; deployment of several major releases.</p>
+                        <p>Provided 2nd line support and was on standby 24x7 to ensure system's high availability.</p>
+                        <p>Writing PhD thesis outside of work.</p>
+                    </td>
+                </tr>
+            </tbody>
+            
+            
+            <tbody property="worksFor" typeof="EmployeeRole">
+                <tr>
+                    <td class="dates">
+                        <time property="startDate" datetime="2000-10">10/2000</time> to <time property="endDate" datetime="2004-09">09/2004</time>
+                    </td>
+                    <td class="company">
+                        Occasional casual work whilst studying for PhD, Southampton
+                    </td>
+                </tr>
+                <tr>
+                    <td class="exp-skills">
+                        <ul>
+                            <li about="#john" property="knowsAbout">Java</li>
+                            <li about="#john" property="knowsAbout">Perl</li>
+                            <li about="#john" property="knowsAbout">ASP/MS Access</li>
+                            <li about="#john" property="knowsAbout">Various servlet containers</li>
+                        </ul>
+                    </td>
+                    <td class="exp-work" property="description">
+                        <p>Created registration website for international conference, and provided support.</p>
+                        <p>Help with E-Business course notes, coursework marking &amp; support</p>
+                        <p>Other casual and temp work</p>
+                    </td>
+                </tr>
+            </tbody>
+            
+            
+            <tbody property="worksFor" typeof="EmployeeRole">
+                <tr>
+                    <td class="dates">
+                        <time property="startDate" datetime="1999-06">06/1999</time> to <time property="endDate" datetime="2000-09">09/2000</time>
+                    </td>
+                    <td class="company" property="worksFor" typeof="Organization">
+                        <span property="name">Finatec AG</span>, Germany - 
+                        <span property="disambiguatingDescription">financial software</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="exp-skills">
+                        <ul>
+                            <li about="#john" property="knowsAbout">Java</li>
+                            <li about="#john" property="knowsAbout">Oracle</li>
+                            <li about="#john" property="knowsAbout">HTML, Javascript, CSS</li>
+                        </ul>
+                    </td>
+                    <td class="exp-work" property="description">
+                        <p>Java developer for back office financial software.<p>
+                        <p>From conception to delivery this included, designing and developing servlets, JSP pages and the server side Java infrastructure for an intranet application.</p>
+                        <p>The infrastructure covered many aspects of J2EE including connection pooling, transactions and the MVC architecture. This posed a challenge as the support in the open source community for these technologies at the time was not as prevalent as it is now, requiring many aspects to be created from scratch, including: DB connection pooling, transaction management, MVC structures, internationalisation, authentication and role based security, and caching DB cursored result sets</p>
+                    </td>
+                </tr>
+            </tbody>
+            
+            
+            <tbody property="worksFor" typeof="EmployeeRole">
+                <tr>
+                    <td class="dates">
+                        <time property="startDate" datetime="1997-06">06/1997</time> to <time property="endDate" datetime="1997-09">09/1997</time>
+                    </td>
+                    <td class="company" property="worksFor" typeof="Organization">
+                        <span property="name">Finatec AG</span>, Germany - 
+                        <span property="disambiguatingDescription">financial software</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="exp-skills">
+                        <ul>
+                            <li about="#john" property="knowsAbout">C++</li>
+                            <li about="#john" property="knowsAbout">Oracle</li>
+                            <li about="#john" property="knowsAbout">HTML, CSS</li>
+                        </ul>
+                    </td>
+                    <td class="exp-work" property="description">
+                        <p>Undergraduate summer holiday work as a C++ developer.</p>
+                        <p>Created a drill-down navigation of an extensive financial Oracle DB using Sybase server side tools.</p>
+                        <p>Created generic DOM in C++ for reporting in the status of a large DB import tool.</p>
+                    </td>
+                </tr>
+            </tbody>
+            
+            
+            <tbody property="worksFor" typeof="EmployeeRole">
+                <tr>
+                    <td class="dates">
+                        <time property="startDate" datetime="1994">1994</time> to <time property="endDate" datetime="1996">1996</time>
+                    </td>
+                    <td class="company" property="worksFor" typeof="Organization">
+                        <span property="name">The Technology Shop</span>, Farnborough
+                    </td>
+                </tr>
+                <tr>
+                    <td class="exp-skills">
+                    </td>
+                    <td class="exp-work" property="description" >
+                        <p>Part time work whilst studying for A-Levels.</p>
+                        <p>Built, repaired, and sold computers and peripherals.</p>
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+    </section>
+    
+
+    <section>
+        <h3>Education</h3>
+
+        <div property="alumniOf" typeof="EducationalOrganization">
+            <p>
+                <time property="endDate" datetime="2007">2007</time>, 
+                <span property="award">Computer Science PhD</span>, 
+                <span property="name">University of Southampton</span>.
+            </p>
+            <div class="small-indented">
+                <p>This involved simulations of a great many very small devices, each about the size of a grain of sand, and each capable of local broadcast communications with a few nearby neighbouring devices. If such devices could be mass produced very cheaply, they could conceivably be mixed and suspended in paint, then painted over a large surface such as a bridge or ceiling.</p>
+                <p>The challenge of such large scale computing is to reliably obtain a desired behaviour by engineering the cooperation of many parts, without assuming any precision interconnect or precision arrangement of the parts.</p>
+                <p>One of the main contributions of the thesis was a novel distributed algorithm to detect the perimeter of such a large scale network without requiring nodes to have any knowledge of their location.</p>
+            </div>
+        </div>
+
+        <p property="alumniOf" typeof="EducationalOrganization">
+            <time property="endDate" datetime="2000">2000</time>, 
+            <span property="award">Computer Science BSc, 2:1</span>, 
+            <span property="name">University of Southampton</span>
+        </p>
+
+        <p property="alumniOf" typeof="EducationalOrganization">
+            <time property="endDate" datetime="1996">1996</time>, 
+            <span property="award">A Levels in Computing, Mathematics, and Psychology</span>, 
+            <span property="name">Farnborough 6th Form College</span>
+        </p>
+
+        <p property="alumniOf" typeof="EducationalOrganization">
+            <time property="endDate" datetime="1994">1994</time>, 
+            <span property="award">10 GCSEs</span>, 
+            <span property="name">The Wavell School, Farnborough</span>
+        </p>
+    </section>
+    
+
+    <section>
+        <h3>References</h3>
+        <p>Available upon request</p>
+    </section>
+</body>
+</html>
